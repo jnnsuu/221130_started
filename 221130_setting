@@ -13,5 +13,5 @@ git clone
 ### 편집 후 commit 하기
  최초:git config --global user.email 'email'
       git config --global user.name 'name'
- 이후: +클릭->체크클릭->commit하면 반영됨
+ 이후: +클릭->체크클릭하면 commit반영됨(메세지 써야함)
  
