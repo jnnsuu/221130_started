@@ -9,5 +9,9 @@ virtualenv .venv
 ##VSCode와 연동하기
 git clone
   #in VSCode-F1
-소스 제어를 통해 commit
 
+### 편집 후 commit 하기
+ 최초:git config --global user.email 'email'
+      git config --global user.name 'name'
+ 이후: +클릭->체크클릭->commit하면 반영됨
+ 
