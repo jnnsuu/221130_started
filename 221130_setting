@@ -1,0 +1,9 @@
+
+#가상환경 세팅하기
+pip install virtualenv
+  #virtualenv is better than venv.
+
+cd C:\users\user
+virtualenv .venv
+
+##파워쉘에서 conda명령어 사용하기\
