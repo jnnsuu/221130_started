@@ -6,4 +6,8 @@ pip install virtualenv
 cd C:\users\user
 virtualenv .venv
 
-##파워쉘에서 conda명령어 사용하기\
+##VSCode와 연동하기
+git clone
+  #in VSCode-F1
+소스 제어를 통해 commit
+
