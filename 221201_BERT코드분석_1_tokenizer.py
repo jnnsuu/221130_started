@@ -103,7 +103,7 @@ def validate_case_matches_checkpoint(do_lower_case, init_checkpoint):
         "just comment out this check." % (actual_flag, init_checkpoint,
                                           model_name, case_name, opposite_flag))
   
-  #is_bad_config가 True가 되면 ValueError 레이즈
+  # is_bad_config가 True가 되면 ValueError 레이즈
 
 def convert_to_unicode(text):
   """Converts `text` to Unicode (if it's not already), assuming utf-8 input."""
@@ -124,6 +124,10 @@ def convert_to_unicode(text):
   else:
     raise ValueError("Not running on Python2 or Python 3?")
 
+      # convert_to_unicode(text) - utf-8을 가정하되, 텍스트를 유니코드로 변환하는 함수
+      # 자세한 내용 생략
+      # text를 decode한다.
+      # 
 
 def printable_text(text):
   """Returns text encoded in a way suitable for print or `tf.logging`."""
