@@ -9,6 +9,7 @@ git clone
  이후: +클릭->체크클릭하면 commit반영됨(메세지 써야함)
 
 #가상환경 세팅하기
+(1) virtual env
 pip install virtualenv
   #virtualenv is better than venv.
 cd C:\users\user
@@ -19,3 +20,9 @@ call Scripts/activate
   #activate environment .env
 deactivate
   #deactivate environment .env
+  
+(2) conda
+conda create -n '환경명' python=
+conda env list
+python -m ipykernel install --user --name '환경명'
+pip install jupyter notebook
