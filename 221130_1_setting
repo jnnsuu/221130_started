@@ -25,6 +25,7 @@ deactivate
 conda create -n '환경명' python=
 conda env list
 python -m ipykernel install --user --name '환경명'
+*연결해제: jupyter kernelspec uninstall '환경명'
 pip install jupyter notebook
 
 가상환경 생성 경로 변경
