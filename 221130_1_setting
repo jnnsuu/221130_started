@@ -27,7 +27,7 @@ conda env list
 python -m ipykernel install --user --name '환경명'
 pip install jupyter notebook
 
-가상환경 생성 경로 변
+가상환경 생성 경로 변경
 conda config --append envs_dirs /path/to/envs
 C:\Users\<user> 경로의 .condarc env_dirs 조건이 추가
 conda create -p <path/to/dir_envname>
