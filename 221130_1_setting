@@ -18,12 +18,15 @@ virtualenv .env
 cd C:\users\user\.env
 call Scripts/activate
   #activate environment .env
+  #경로 다를 시 full_path&환경명으로 입력
 deactivate
   #deactivate environment .env
   
 (2) conda
-conda create -n '환경명' python=
-conda env list
+conda create -n '환경명' python= #생성
+conda env remove --n 가상환경이름 #삭제
+conda env list #리스트 출력
+
 python -m ipykernel install --user --name '환경명'
 *연결해제: jupyter kernelspec uninstall '환경명'
 pip install jupyter notebook
